@@ -21,6 +21,7 @@ const gulp = require("gulp");
  const webpackconfig = require("./webpack.config.js");
  const webpackstream = require("webpack-stream");
  const svgSprite = require('gulp-svg-sprite');
+ const svgmin = require('gulp-svgmin');
 
 // BrowserSync
 function browserSync(done) {
@@ -84,14 +85,19 @@ function html() {
 function svgSpr() {
 	return gulp
 	.src('./assets/img/**/*.svg')
+	.pipe(svgmin({
+		js2svg: {
+			pretty: true
+		}
+	}))
 	.pipe(svgSprite({
-                mode: {
-                    stack: {
+		mode: {
+			stack: {
                         sprite: "../sprite.svg"  //sprite file name
                     }
                 },
             }
-        ))
+            ))
 	// .pipe(
 	// 	imagemin([
 	// 		imagemin.svgo({
@@ -104,7 +110,7 @@ function svgSpr() {
 	// 		})
 	// 		])
 	// 	)
-	.pipe(gulp.dest('build/assets/sprites'));
+	.pipe(gulp.dest('build/assets/sprites','assets/sprites'));
 };
 
 // CSS task
