@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- <link rel="stylesheet" href="https://i.icomoon.io/public/temp/37058fa4e7/UntitledProject/style.css"> -->
+	<link rel="stylesheet" href="css/style.css">
+	<title>Binman</title>	
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+</head>
+<body>
+	<header class="bm-header">
+		<nav class="navbar navbar-expand-lg navbar-light bm-header-navbar">
+			<div class="container">
+				<a class="navbar-brand bm-header_brand" href="#">
+					<svg class="bm-header_brand-img">
+						<use xlink:href="../sprites/sprite.svg#Group_11"></use>
+					</svg>
+				</a>
+				<button class="navbar-toggler btn-header-navbar" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse bm-header_collapse" id="navbarNav">
+					<ul class="navbar-nav mr-auto bm-header_collapse-ul">
+						<li class="nav-item active">
+							<a class="nav-link" href="#"  onclick="toggle_visibility('for_population');">ДЛЯ НАСЕЛЕНИЯ</a>
+							<ul id="for_population" class="list-inline bm-header_collapse-ul-submenu">
+								<li>
+									<a class="nav-link" href="#">Список операторов</a>
+								</li>
+								<li>
+									<a class="nav-link" href="#">Новости</a>
+								</li>
+								<li>
+									<a class="nav-link" href="#">Полезная информация</a>
+								</li>
+								<li>
+									<a class="nav-link" href="#">Вопрос-ответ</a>
+								</li>
+							</ul>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#"  onclick="toggle_visibility('for_business');">ДЛЯ БИЗНЕСА</a>
+							<ul id="for_business" class="list-inline bm-header_collapse-ul-submenu">
+								<li>
+									<a class="nav-link" href="#">Список операторов</a>
+								</li>
+								<li>
+									<a class="nav-link" href="#">Новости</a>
+								</li>
+								<li>
+									<a class="nav-link" href="#">Полезная информация</a>
+								</li>
+								<li>
+									<a class="nav-link" href="#">Вопрос-ответ</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+					<form class="form-inline my-2 my-lg-0">
+						<a class="bm-header_collapse-phone" href="tel:8-800-350-2264">
+							<svg class="bm-header_collapse-phone-img">
+								<use xlink:href="../sprites/sprite.svg#phone"></use>
+							</svg>
+							8 800 350 22 64
+						</a>
+						<button class="btn btn-collapse-room my-2 my-sm-0" type="submit">
+							<svg class="bm-header_collapse-btn-img">
+								<use xlink:href="../sprites/sprite.svg#shield"></use>
+							</svg>
+							<span>ЛИЧНЫЙ КАБИНЕТ</span>
+						</button>
+					</form>
+
+				</div>
+			</div>
+		</nav>
+		<div class="bm-header_submenu">
+			<div class="container">
+				<ul class="list-inline">
+					<li class="list-inline-item">
+						<a class="nav-link" href="#">Список операторов</a>
+					</li>
+					<li class="list-inline-item">
+						<a class="nav-link" href="#">Новости</a>
+					</li>
+					<li class="list-inline-item">
+						<a class="nav-link" href="#">Полезная информация</a>
+					</li>
+					<li class="list-inline-item">
+						<a class="nav-link" href="#">Вопрос-ответ</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</header>

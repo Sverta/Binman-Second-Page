@@ -1,0 +1,267 @@
+@mixin box {
+	background: #ffffff;
+	border-radius: 8px;
+	box-shadow: 0px 0px  10px rgba(0,0,0,0.05); 
+}
+
+.main-background {
+	background-color: #f4f9fb;
+	padding-bottom: 30px;
+}
+
+.bm-possibilities{
+	font-family: "proxima_novaregular",sans-serif;
+	padding: 50px 0 20px;
+	&-box {
+		@include box;
+		padding: 20px 35px 0;
+	}
+	&-img {
+		width: 40px;
+		height: 36px;
+		color: #5094da;
+	}
+	p{
+		font-size: 14px;
+		line-height: 19px;
+		padding-left: 20px;
+	}
+	@media screen and (max-width: 991px) {
+		padding-top: 20px;
+	}
+}
+
+// technology
+
+.bm-technology {
+	&-box {
+		@include box;
+		padding: 30px 10px;
+		margin-bottom: 20px;
+	}
+	&-text-link {
+		color: #6a7f8f;
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 16px;
+		margin-bottom: 21px;
+		a {
+			color: #5094da;
+			border-bottom: 1px dashed #5094da;
+			font-family: "proxima_novasemibold", sans-serif;
+			&:hover {
+				text-decoration: none;
+				border-bottom: 1px solid #5094da;
+			}
+		}
+	}
+	&-text {
+		font-size: 14px;
+		line-height: 16px;
+	}
+}
+.bm-technology-img {
+	width: 14px;
+	max-height: 15px;
+	color: #5094da;
+}
+.bm-technology-row{
+	padding-bottom: 15px;
+	@media screen and (max-width: 991px) {
+		div {
+			text-align: center !important;
+		}
+	}
+}
+.bm-technology{
+	&-info-link {
+		color: #475364;
+		font-family: "proxima_novasemibold", sans-serif;
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 14px;
+		&:hover {
+			color: #475364;
+		}
+	}
+	&_show-card {
+		color: #5094da;
+		font-family: "proxima_novasemibold", sans-serif;
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 14px;
+		&-img {
+			width: 6px;
+			height: 10px;
+			margin-left: 5px;
+		}
+		&:hover {
+			color: #5094da;
+		}
+	}
+}
+
+// send block
+
+.bm-send_box {
+	@include box;
+	margin-bottom: 20px;
+	// height: 240px;
+	p{
+		color: #6a7f8f;
+		font-size: 13px;
+		line-height: 18px;
+		max-height: 115px;
+		overflow: auto;
+	}
+	&-link {
+		color: #5094da;
+		font-family: "proxima_novasemibold", sans-serif;
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 14px;
+		position: absolute;
+		bottom: 55px;
+	}
+}
+.bm-send_box-left {
+	padding: 25px 0 15px 35px;
+	min-width: 230px;
+}
+@media screen and (max-width: 1155px) {
+	.bm-send_box-left {
+		padding: 20px 0 30px 17px;
+		min-width: 190px;
+	}
+	.bm-send_box-link {
+		bottom: 30px;
+	}
+	.bm-send_box-img {
+		margin: auto; 
+	}
+}
+
+
+// SERVICE
+
+.bm-service{
+	&_box-img {
+		height: 500px;
+		width: 100%;
+		@media screen and (max-width: 991px) {
+			height: 300px;
+		}
+	}
+	padding: 75px 0 90px;
+
+	@media screen and (max-width: 991px) {
+		padding: 20px 0;
+	}
+	&_description{
+		font-size: 14px;
+		line-height: 16px;
+		text-align: center;
+		padding-bottom: 20px;
+		@media screen and (max-width: 991px) {
+			padding-bottom: 10px;
+		}
+	}
+} 
+.bm-service_advantages  {
+	padding-bottom: 10px;
+	p{ 
+		font-size: 13px;
+		line-height: 18px;
+	}
+	&-number {
+		color: #e7eef8;
+		font-family: "proxima_novasemibold", sans-serif;
+		font-size: 26px;
+		font-weight: 400;
+		line-height: 26px;
+		padding: 0 10px 0 0;
+	}
+}
+
+// ADDITIONAL
+
+.bm-additional {
+	&-box {
+		background: #e3f0fa;
+		border-radius: 8px;
+		padding: 35px 40px 20px; 
+		margin-bottom: 100px;
+		p {
+			font-size: 14px;
+			line-height: 14px;
+			display:inline-block;
+		}
+		.btn{
+			color: #ffffff;
+			font-family: "proxima_novasemibold", sans-serif;
+			font-size: 16px;
+			font-weight: 400;
+			line-height: 16px;
+			padding: 20px;
+			border-radius: 30px;
+			min-width: 230px;
+			margin: 0 3px;
+			&:hover{
+				box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+			}
+			&:focus{
+				outline: none;
+			}
+			@media screen and (max-width: 1234px) {
+				padding: 15px 0;
+				margin: 5px;
+				min-width: 200px;
+			}
+		}
+	}
+}
+@media screen and (max-width: 991px) {
+	.bm-additional_box-sm {
+		text-align: center;
+	}
+}
+
+.bm-additional_box-img {
+	width: 175px;
+	height: 34px;
+	display: inline-block;
+
+	@media screen and (max-width: 1181px) {
+		transform: rotateX(180deg);
+	}
+
+}
+.btn-additional-box-read {
+	background-color: #5094da;
+	box-shadow: 0px 0px  10px rgba(0,0,0,0.05);
+}
+
+.btn-additional-box-order {
+	background-color: #4ec5dc;
+}
+.bm-additional-box{
+	&-right{
+		float: right;
+	}
+	&-left{
+		display: inline-block;
+		p{
+			max-width: 480px;
+		}
+		h6 {
+			max-width: 530px;
+			
+		}
+		@media screen and (max-width: 991px) {
+			h6,p {
+				max-width: 100%;
+			}
+		
+		}
+	}
+}

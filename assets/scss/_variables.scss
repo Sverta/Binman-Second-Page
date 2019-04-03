@@ -1,0 +1,89 @@
+
+// @import url('http://fonts.googleapis.com/css?family=Roboto:700,300,600,800,400&subset=cyrillic,cyrillic-ext,latin');
+
+body {
+	background-color: #fff;	
+}
+
+
+h1{
+	color: #475364;
+	font-family: "proxima_novasemibold",sans-serif;
+	font-size: 36px !important;
+	font-weight: 400 !important;
+	line-height: 36px !important;
+	@media screen and (max-width: 991px) {
+		font-size: 22px !important;
+	}
+}
+
+h2{
+	color: #475364;
+	font-family: "proxima_novasemibold";
+	font-size: 36px !important;
+	font-weight: 400 !important;
+	line-height: 36px !important;
+	text-align: center;
+	margin-bottom: 15px !important;
+	@media screen and (max-width: 991px) {
+		font-size: 20px !important;
+	}
+}
+
+h3{
+	color: #475364;
+	font-family: "proxima_novasemibold";
+	font-size: 22px !important;
+	font-weight: 400 !important;
+	line-height: 22px !important;
+	margin-bottom: 13px;
+	@media screen and (max-width: 991px) {
+		font-size: 18px !important;
+	}
+}
+h4 {
+	color: #475364;
+	font-family: "proxima_novasemibold";
+	font-size: 24px !important;
+	font-weight: 400 !important;
+	line-height: 24px !important;
+	padding-bottom: 12px;
+	@media screen and (max-width: 991px) {
+		font-size: 20px !important;
+		text-align: center;
+	}
+}
+h5 {
+	color: #475364;
+	font-family: "proxima_novasemibold";
+	font-size: 18px !important;
+	font-weight: 400 !important;
+	line-height: 20px !important;
+	margin-bottom: 12px !important;
+	@media screen and (max-width: 991px) {
+		font-size: 16px !important;
+	}
+}
+
+h6 {
+	color: #475364;
+	font-family: "proxima_novasemibold";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 18px;
+	margin-bottom: 2px !important;
+}
+p {
+	color: #6a7f8f;	
+	font-family: "proxima_novaregular";	
+	font-weight: 400;
+}
+/* On screens that are 992px or less, set the background color to blue */
+@media only screen and (min-width: 992px) {
+  .container {
+    max-width: 1240px !important;
+  }
+}
+
+
+

@@ -1,0 +1,118 @@
+.bm-footer {
+	&_top {
+		background: #29313c;
+		box-shadow: 0px 0px  10px rgba(0,0,0,0.1);
+		padding-bottom: 15px;
+		&-img {
+			margin-right: 20px;
+		}
+	}
+	&_bottom {
+		background: #232a35;
+		
+	}
+}
+.bm-footer_top-line {
+	border-bottom: 1px solid #232a35;
+	margin-bottom: 20px;
+}
+.bm-footer_top-list {
+
+	ul{
+		display: inline-block;
+		margin: 0;
+	}
+	li {
+		padding: 12px 15px 16px;
+		a {
+			color: #ffffff;
+			font-family: "proxima_novabold", sans-serif;
+			font-size: 12px;
+			font-weight: 400;
+			line-height: 12px;
+			&:hover {
+				color: #ffffff;
+			}
+		}
+	}
+	@media screen and (max-width: 575px) {
+		padding-top: 10px;
+		text-align: center;
+	}
+}
+.bm-footer_top-description {
+	color: #8796aa;
+	font-size: 12px;
+	line-height: 14px;	
+	padding: 10px 15px 3px 0;
+}
+.bm-footer_top-info {
+	a{
+		color: #8796aa;
+		font-family: "proxima_novaregular", sans-serif;
+		font-size: 12px;
+		line-height: 12px;
+		a:hover  {
+			color: #8796aa;
+		}
+	}
+	p {
+		color: #ffffff;
+		font-family: "proxima_novabold", sans-serif;
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 16px;
+		margin-bottom: 0;
+
+	}
+	@media screen and (max-width: 575px) {
+		padding: 20px;
+	}
+}
+.bm-footer_top-list-right{
+	li {
+		a {
+			color: #ffffff;
+			font-family: "proxima_novaregular", sans-serif;
+		}
+		font-size: 12px;
+		font-weight: 400;
+		padding: 10px 0 12px;
+		line-height: 12px;
+	}
+	&-header {
+		font-family: "proxima_novabold", sans-serif;
+		color: #8796aa;
+	}
+	@media screen and (max-width: 575px) {
+		text-align: center;
+	}
+}
+
+// BOTTOM
+.bm-footer_bottom {
+	color: #8796aa;
+	font-family: "helveticaneueregular", sans-serif;
+	font-size: 11px;
+	line-height: 15px;
+	padding: 15px 0;
+	p,ul {
+		margin-bottom: 0;
+	}
+	li{
+		padding: 0 15px;
+		a {
+			color: #ffffff;
+			font-family: "proxima_novaregular", sans-serif;
+			font-size: 12px;
+			font-weight: 400;
+			line-height: 12px;
+		}
+	}
+	@media screen and (max-width: 575px) {
+		text-align: center;
+		ul {
+			padding: 15px;
+		}
+	}
+}

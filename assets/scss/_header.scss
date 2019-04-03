@@ -1,0 +1,137 @@
+#for_population,#for_business {
+	display: none;
+}
+.bm-header {
+	background: #ffffff;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.05);
+	&_brand-img {
+		height: 30px;
+		width: 106px;
+	}
+	&-navbar {
+		border-bottom: 1px solid #ecf0f4;
+		padding-top: 4px;
+		padding-bottom: 4px;
+		@media screen and (max-width: 991px) {
+			border-bottom: none;
+		}
+	}
+	&_collapse {
+		@media screen and (max-width: 991px) {
+			border-top: 1px solid #ecf0f4;
+			padding-top: 10px;
+		}
+	}
+}
+.bm-header_collapse-ul {
+	li {
+		padding: 0 20px 0 10px;
+		a {
+			font-family: 'proxima_novabold', sans-serif;
+			color: #475364;
+			font-size: 12px;
+			font-weight: 400;
+			padding:  0 15px;
+			&:hover {
+				color: #475364;
+				text-decoration: underline;
+			}
+		}
+		@media screen and (min-width: 991px) {
+			.bm-header_collapse-ul-submenu{
+				display:none;
+			}		
+		}
+		@media screen and (max-width: 991px) {
+			padding: 10px;
+			.bm-header_collapse-ul-submenu{
+				padding: 10px;
+			}
+		}
+	}
+}
+.bm-header_collapse-phone {
+	font-family: 'proxima_novasemibold', sans-serif;
+	color: #475364;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 14px;
+	margin-right: 45px;
+	&-img {
+		width: 14px;
+		height: 14px;
+		color: #5094da;
+	}
+	&:hover {
+		color: #475364;
+		text-decoration: underline;
+	}
+}
+
+.btn-collapse-room {
+	font-family: 'proxima_novabold', sans-serif;
+	color: #ffffff;
+	height: 30px;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 12px;
+	background: #5094da;
+	border-radius: 100px;
+	padding: 0 20px;
+	span {
+		vertical-align: middle;
+	}
+	&:hover {
+		border: 1px solid #5094da;
+		background: #fff;
+		color:#5094da; 
+		.bm-header_collapse-btn-img {
+			stroke: #5094da;
+		}
+	}
+	// @media screen and (max-width: 366px) {
+	// 	margin-left: 0;
+	// }
+}
+
+.bm-header_collapse-btn-img {
+	width: 12px;
+	height: 14px;
+	color: #ffffff;
+	vertical-align: middle;
+}
+
+//  submenu
+
+.bm-header_submenu {
+	ul{
+		margin-bottom: 0;
+	}
+	li {
+		padding: 10px 13px 10px 0;
+		a {
+			font-family: 'proxima_novasemibold', sans-serif;
+			color: #475364;
+			font-size: 13px;
+			font-weight: 400;
+			line-height: 11px;
+			padding-left: 0;
+			&:hover {
+				color: #475364;
+				text-decoration: underline;
+			}
+		}
+	}
+	@media screen and (max-width: 991px) {
+		display: none;
+	}
+}
+@media screen and (max-width: 991px) {
+	.btn-header-navbar{
+		border: none;
+	}
+}
+
+
+// for mobile 
+
