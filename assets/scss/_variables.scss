@@ -1,9 +1,34 @@
+// colors
 
-// @import url('http://fonts.googleapis.com/css?family=Roboto:700,300,600,800,400&subset=cyrillic,cyrillic-ext,latin');
+$bm-backgrount: #f4f9fb;
+$bm-box-blue: #e3f0fa;
+$bm-white: #ffffff;
+
+$bm-dark-grey: #475364;
+$bm-dark-grey-submenu: #ecf0f4;
+$bm-light-grey: #e7eef8;
+
+$bm-btn-dark-blue: #5094da;
+$bm-btn-blight-blue: #4ec5dc;
+
+$bm-text-link: #6a7f8f;
+
+$bm-foored-light-backgrount: #29313c;
+$bm-foored-dark-backgrount: #232a35;
+$bm-footed-grey-text:#8796aa;
 
 body {
 	background-color: #fff;	
 	font-family: Arial,Helvetica,sans-serif;
+}
+a{
+	&:focus {
+		outline:none;
+	}
+	&:active {
+		text-decoration: none;
+		border-bottom: 0 !important;
+	}
 }
 
 svg{

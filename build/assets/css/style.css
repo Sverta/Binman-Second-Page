@@ -39,6 +39,15 @@ body {
   font-family: Arial,Helvetica,sans-serif;
 }
 
+a:focus {
+  outline: none;
+}
+
+a:active {
+  text-decoration: none;
+  border-bottom: 0 !important;
+}
+
 svg {
   font-family: "proxima nova semibold",sans-serif;
 }
@@ -9696,7 +9705,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .bm-header_collapse-phone:hover {
   color: #475364;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .btn-collapse-room {
@@ -9716,13 +9725,13 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .btn-collapse-room:hover {
-  border: 1px solid #5094da;
-  background: #fff;
-  color: #5094da;
+  background: #5497db;
+  color: #ffffff;
 }
 
-.btn-collapse-room:hover .bm-header_collapse-btn-img {
-  stroke: #5094da;
+.btn-collapse-room:active, .btn-collapse-room:focus {
+  background: #4c91d9;
+  outline: none;
 }
 
 .bm-header_collapse-btn-img {
@@ -9824,6 +9833,8 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .bm-technology-text-link a:hover {
+  color: #3b87d6;
+  transition: all 0.15s;
   text-decoration: none;
   border-bottom: 1px solid #5094da;
 }
@@ -9859,6 +9870,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .bm-technology-info-link:hover {
   color: #475364;
+  text-decoration: none;
 }
 
 .bm-technology_show-card {
@@ -9876,7 +9888,17 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .bm-technology_show-card:hover {
-  color: #5094da;
+  text-decoration: none;
+}
+
+.bm-technology_show-card:hover span {
+  transition: color 0.15s;
+  color: #3b87d6;
+  text-decoration: underline;
+}
+
+.bm-technology_show-card:hover [clip-path="url(#la)"] {
+  fill: red;
 }
 
 .bm-send_box {
@@ -9904,6 +9926,16 @@ a.text-dark:hover, a.text-dark:focus {
   line-height: 14px;
   position: absolute;
   bottom: 30px;
+}
+
+.bm-send_box-link:hover {
+  text-decoration: none;
+}
+
+.bm-send_box-link:hover span {
+  color: #3b87d6;
+  transition: color 0.15s;
+  text-decoration: underline;
 }
 
 .bm-send_box img {
@@ -10006,14 +10038,6 @@ a.text-dark:hover, a.text-dark:focus {
   margin: 0 3px;
 }
 
-.bm-additional-box .btn:hover {
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
-}
-
-.bm-additional-box .btn:focus {
-  outline: none;
-}
-
 @media screen and (max-width: 1234px) {
   .bm-additional-box .btn {
     padding: 15px 0;
@@ -10045,8 +10069,30 @@ a.text-dark:hover, a.text-dark:focus {
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
 }
 
+.btn-additional-box-read:hover {
+  background: #5497db;
+  color: #ffffff;
+}
+
+.btn-additional-box-read:active, .btn-additional-box-read:focus {
+  background: #4c91d9;
+  outline: none;
+  transform: scale(0.995);
+}
+
 .btn-additional-box-order {
   background-color: #4ec5dc;
+}
+
+.btn-additional-box-order:hover {
+  background: #52c6dd;
+  color: #ffffff;
+}
+
+.btn-additional-box-order:active, .btn-additional-box-order:focus {
+  background: #4ac4db;
+  outline: none;
+  transform: scale(0.995);
 }
 
 .bm-additional-box-right {

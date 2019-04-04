@@ -1,11 +1,11 @@
 @mixin box {
-	background: #ffffff;
+	background: $bm-white;
 	border-radius: 8px;
 	box-shadow: 0px 0px  10px rgba(0,0,0,0.05); 
 }
 
 .main-background {
-	background-color: #f4f9fb;
+	background-color: $bm-backgrount;
 	padding-bottom: 30px;
 }
 
@@ -19,7 +19,7 @@
 	&-img {
 		width: 40px;
 		height: 40px;
-		color: #5094da;
+		color: $bm-btn-dark-blue;
 	}
 	p{
 		font-size: 14px;
@@ -40,18 +40,20 @@
 		margin-bottom: 20px;
 	}
 	&-text-link {
-		color: #6a7f8f;
+		color: $bm-text-link;
 		font-size: 16px;
 		font-weight: 400;
 		line-height: 16px;
 		margin-bottom: 21px;
 		a {
-			color: #5094da;
-			border-bottom: 1px dashed #5094da;
+			color: $bm-btn-dark-blue;
+			border-bottom: 1px dashed $bm-btn-dark-blue;
 			font-family: "proxima nova semibold", sans-serif;
 			&:hover {
+				color:darken($bm-btn-dark-blue, 5%);
+				transition: all 0.15s;
 				text-decoration: none;
-				border-bottom: 1px solid #5094da;
+				border-bottom: 1px solid $bm-btn-dark-blue;
 			}
 		}
 	}
@@ -63,7 +65,7 @@
 .bm-technology-img {
 	width: 14px;
 	height: 14px;
-	color: #5094da;
+	color: $bm-btn-dark-blue;
 }
 .bm-technology-row{
 	padding-bottom: 15px;
@@ -75,17 +77,18 @@
 }
 .bm-technology{
 	&-info-link {
-		color: #475364;
+		color: $bm-dark-grey;
 		font-family: "proxima nova semibold", sans-serif;
 		font-size: 14px;
 		font-weight: 400;
 		line-height: 14px;
 		&:hover {
-			color: #475364;
+			color: $bm-dark-grey;
+			text-decoration: none;
 		}
 	}
 	&_show-card {
-		color: #5094da;
+		color: $bm-btn-dark-blue;
 		font-family: "proxima nova semibold", sans-serif;
 		font-size: 14px;
 		font-weight: 400;
@@ -96,7 +99,15 @@
 			margin-left: 5px;
 		}
 		&:hover {
-			color: #5094da;
+			text-decoration: none;
+			span{
+				transition: color 0.15s;
+				color:darken($bm-btn-dark-blue, 5%);	
+				text-decoration: underline;
+			}
+			[clip-path="url(#la)"]{
+				fill: red;
+			}
 		}
 	}
 }
@@ -107,22 +118,30 @@
 	@include box;
 	margin-bottom: 20px;
 	min-height: 200px;
-    position: relative;
+	position: relative;
 	p{
-		color: #6a7f8f;
+		color: $bm-text-link;
 		font-size: 13px;
 		line-height: 18px;
 		max-height: 115px;
 		overflow: auto;
 	}
 	&-link {
-		color: #5094da;
+		color: $bm-btn-dark-blue;
 		font-family: "proxima nova semibold", sans-serif;
 		font-size: 14px;
 		font-weight: 400;
 		line-height: 14px;
 		position: absolute;
 		bottom: 30px;
+		&:hover{
+			text-decoration: none;
+			span {
+				color:darken($bm-btn-dark-blue, 5%);
+				transition: color 0.15s;
+				text-decoration: underline;
+			}
+		}
 	}
 	img{
 		max-width: 100%;
@@ -179,7 +198,7 @@
 		line-height: 18px;
 	}
 	&-number {
-		color: #e7eef8;
+		color: $bm-light-grey;
 		font-family: "proxima nova semibold", sans-serif;
 		font-size: 26px;
 		font-weight: 400;
@@ -192,7 +211,7 @@
 
 .bm-additional {
 	&-box {
-		background: #e3f0fa;
+		background: $bm-box-blue;
 		border-radius: 8px;
 		padding: 35px 40px 20px; 
 		margin-bottom: 100px;
@@ -202,7 +221,7 @@
 			display:inline-block;
 		}
 		.btn{
-			color: #ffffff;
+			color: $bm-white;
 			font-family: "proxima nova semibold", sans-serif;
 			font-size: 16px;
 			font-weight: 400;
@@ -211,12 +230,6 @@
 			border-radius: 30px;
 			min-width: 230px;
 			margin: 0 3px;
-			&:hover{
-				box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
-			}
-			&:focus{
-				outline: none;
-			}
 			@media screen and (max-width: 1234px) {
 				padding: 15px 0;
 				margin: 5px;
@@ -242,12 +255,30 @@
 
 }
 .btn-additional-box-read {
-	background-color: #5094da;
+	background-color: $bm-btn-dark-blue;
 	box-shadow: 0px 0px  10px rgba(0,0,0,0.05);
+	&:hover {
+		background: lighten($bm-btn-dark-blue, 1%);
+		color: $bm-white;
+	}
+	&:active, &:focus{
+		background: darken($bm-btn-dark-blue, 1%);
+		outline: none;
+		transform: scale(.995);
+	}
 }
 
 .btn-additional-box-order {
-	background-color: #4ec5dc;
+	background-color: $bm-btn-blight-blue;
+	&:hover {
+		background: lighten($bm-btn-blight-blue, 1%);
+		color: $bm-white;
+	}
+	&:active, &:focus{
+		background: darken($bm-btn-blight-blue, 1%);
+		outline: none;
+		transform: scale(.995);
+	}
 }
 .bm-additional-box{
 	&-right{

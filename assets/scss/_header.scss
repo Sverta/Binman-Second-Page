@@ -2,14 +2,14 @@
 	display: none;
 }
 .bm-header {
-	background: #ffffff;
+	background: $bm-white;
 	box-shadow: 0px 0px 10px rgba(0,0,0,0.05);
 	&_brand-img {
 		height: 30px;
 		width: 106px;
 	}
 	&-navbar {
-		border-bottom: 1px solid #ecf0f4;
+		border-bottom: 1px solid $bm-dark-grey-submenu;
 		padding-top: 4px;
 		padding-bottom: 4px;
 		@media screen and (max-width: 991px) {
@@ -18,7 +18,7 @@
 	}
 	&_collapse {
 		@media screen and (max-width: 991px) {
-			border-top: 1px solid #ecf0f4;
+			border-top: 1px solid $bm-dark-grey-submenu;
 			padding-top: 10px;
 		}
 	}
@@ -28,14 +28,17 @@
 		padding: 0 20px 0 10px;
 		a {
 			font-family: 'proxima nova bold', sans-serif;
-			color: #475364;
+			color: $bm-dark-grey;
 			font-size: 12px;
 			font-weight: 400;
 			padding:  0 15px;
 			&:hover {
-				color: #475364;
+				color: $bm-dark-grey;
 				text-decoration: underline;
 			}
+			// 	&:active {
+			// 	color: lighten($bm-dark-grey,10%);
+			// }
 			@media screen and (max-width: 991px) {
 				padding:  0;	
 			}
@@ -55,7 +58,7 @@
 }
 .bm-header_collapse-phone {
 	font-family: 'proxima nova semibold', sans-serif;
-	color: #475364;
+	color: $bm-dark-grey;
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 14px;
@@ -63,44 +66,41 @@
 	&-img {
 		width: 20px;
 		height: 14px;
-		color: #5094da;
+		color: $bm-btn-dark-blue;
 	}
 	&:hover {
-		color: #475364;
-		text-decoration: underline;
+		color: $bm-dark-grey;
+		text-decoration: none;
 	}
 }
 
 .btn-collapse-room {
 	font-family: 'proxima nova bold', sans-serif;
-	color: #ffffff;
+	color: $bm-white;
 	height: 30px;
 	font-size: 12px;
 	font-weight: 400;
 	line-height: 12px;
-	background: #5094da;
+	background: $bm-btn-dark-blue;
 	border-radius: 100px;
 	padding: 0 20px;
 	span {
 		vertical-align: middle;
 	}
 	&:hover {
-		border: 1px solid #5094da;
-		background: #fff;
-		color:#5094da; 
-		.bm-header_collapse-btn-img {
-			stroke: #5094da;
-		}
+		background: lighten($bm-btn-dark-blue, 1%);
+		color: $bm-white;
 	}
-	// @media screen and (max-width: 366px) {
-	// 	margin-left: 0;
-	// }
+	&:active, &:focus{
+		background: darken($bm-btn-dark-blue, 1%);
+		outline: none;
+	}
 }
 
 .bm-header_collapse-btn-img {
 	width: 12px;
 	height: 14px;
-	color: #ffffff;
+	color: $bm-white;
 	vertical-align: middle;
 }
 
@@ -114,13 +114,13 @@
 		padding: 10px 13px 10px 0;
 		a {
 			font-family: 'proxima nova semibold', sans-serif;
-			color: #475364;
+			color: $bm-dark-grey;
 			font-size: 13px;
 			font-weight: 400;
 			line-height: 11px;
 			padding-left: 0;
 			&:hover {
-				color: #475364;
+				color: $bm-dark-grey;
 				text-decoration: underline;
 			}
 		}
