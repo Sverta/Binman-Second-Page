@@ -374,7 +374,7 @@
 		</clipPath>
 	</defs>
 	<g clip-path="url(#clip_46)">
-		<text fill="rgb(71,83,100)" stroke="none" transform="translate(304 0)" font-size="12" font-family="Segoe UI" x="16.043945" y="11.201172">
+		<text fill="rgb(71,83,100)" stroke="none" transform="translate(304 0)" font-size="12" x="16.043945" y="11.201172">
 				Несвоевременный вывоз 
 		</text>
 	</g>
@@ -384,7 +384,7 @@
 		</clipPath>
 	</defs>
 	<g clip-path="url(#clip_47)">
-		<text fill="rgb(71,83,100)" stroke="none" transform="translate(304 0)" font-size="12" font-family="Segoe UI" x="2.7548828" y="25.201172">
+		<text fill="rgb(71,83,100)" stroke="none" transform="translate(304 0)" font-size="12" x="2.7548828" y="25.201172">
 				отходов с мусорных 
 		</text>
 	</g>
@@ -394,7 +394,7 @@
 		</clipPath>
 	</defs>
 	<g clip-path="url(#clip_48)">
-		<text fill="rgb(71,83,100)" stroke="none" transform="translate(304 0)" font-size="12" font-family="Segoe UI" x="117.41113" y="25.201172">
+		<text fill="rgb(71,83,100)" stroke="none" transform="translate(304 0)" font-size="12" x="117.41113" y="25.201172">
 				площадок
 		</text>
 	</g>
@@ -404,7 +404,7 @@
 		</clipPath>
 	</defs>
 	<g clip-path="url(#clip_49)">
-		<text fill="rgb(71,83,100)" stroke="none" transform="translate(0 231)" font-size="12" font-family="Segoe UI" x="89.421875" y="11.201172">
+		<text fill="rgb(71,83,100)" stroke="none" transform="translate(0 231)" font-size="12" x="89.421875" y="11.201172">
 				Обнаружение 
 		</text>
 	</g>
@@ -414,7 +414,7 @@
 		</clipPath>
 	</defs>
 	<g clip-path="url(#clip_50)">
-		<text fill="rgb(71,83,100)" stroke="none" transform="translate(0 231)" font-size="12" font-family="Segoe UI" x="39.464844" y="25.201172">
+		<text fill="rgb(71,83,100)" stroke="none" transform="translate(0 231)" font-size="12" x="39.464844" y="25.201172">
 				несанкционированной 
 		</text>
 	</g>
@@ -424,7 +424,7 @@
 		</clipPath>
 	</defs>
 	<g clip-path="url(#clip_51)">
-		<text fill="rgb(71,83,100)" stroke="none" transform="translate(0 231)" font-size="12" font-family="Segoe UI" x="89.480469" y="39.201172">
+		<text fill="rgb(71,83,100)" stroke="none" transform="translate(0 231)" font-size="12" x="89.480469" y="39.201172">
 				свалки 
 		</text>
 	</g>
@@ -434,7 +434,7 @@
 		</clipPath>
 	</defs>
 	<g clip-path="url(#clip_52)">
-		<text fill="rgb(71,83,100)" stroke="none" transform="translate(0 231)" font-size="12" font-family="Segoe UI" x="130.0332" y="39.201172">
+		<text fill="rgb(71,83,100)" stroke="none" transform="translate(0 231)" font-size="12" x="130.0332" y="39.201172">
 				мусора
 		</text>
 	</g>
@@ -444,7 +444,7 @@
 		</clipPath>
 	</defs>
 	<g clip-path="url(#clip_53)">
-		<text fill="rgb(71,83,100)" stroke="none" transform="translate(619 231)" font-size="12" font-family="Segoe UI" x="0" y="11.201172">
+		<text fill="rgb(71,83,100)" stroke="none" transform="translate(619 231)" font-size="12" x="0" y="11.201172">
 				Игнорирование технического 
 		</text>
 	</g>
@@ -454,7 +454,7 @@
 		</clipPath>
 	</defs>
 	<g clip-path="url(#clip_54)">
-		<text fill="rgb(71,83,100)" stroke="none" transform="translate(619 231)" font-size="12" font-family="Segoe UI" x="0" y="25.201172">
+		<text fill="rgb(71,83,100)" stroke="none" transform="translate(619 231)" font-size="12" x="0" y="25.201172">
 				обслуживания мусорной 
 		</text>
 	</g>
@@ -464,7 +464,7 @@
 		</clipPath>
 	</defs>
 	<g clip-path="url(#clip_55)">
-		<text fill="rgb(71,83,100)" stroke="none" transform="translate(619 231)" font-size="12" font-family="Segoe UI" x="0" y="39.201172">
+		<text fill="rgb(71,83,100)" stroke="none" transform="translate(619 231)" font-size="12" x="0" y="39.201172">
 				площадки 
 		</text>
 	</g>
@@ -474,7 +474,7 @@
 		</clipPath>
 	</defs>
 	<g clip-path="url(#clip_56)">
-		<text fill="rgb(71,83,100)" stroke="none" transform="translate(560 381)" font-size="12" font-family="Segoe UI" x="0" y="11.201172">
+		<text fill="rgb(71,83,100)" stroke="none" transform="translate(560 381)" font-size="12" x="0" y="11.201172">
 				Заключение договора на 
 		</text>
 	</g>
@@ -484,7 +484,7 @@
 		</clipPath>
 	</defs>
 	<g clip-path="url(#clip_57)">
-		<text fill="rgb(71,83,100)" stroke="none" transform="translate(560 381)" font-size="12" font-family="Segoe UI" x="0" y="25.201172">
+		<text fill="rgb(71,83,100)" stroke="none" transform="translate(560 381)" font-size="12" x="0" y="25.201172">
 				вывоз 
 		</text>
 	</g>
@@ -494,7 +494,7 @@
 		</clipPath>
 	</defs>
 	<g clip-path="url(#clip_58)">
-		<text fill="rgb(71,83,100)" stroke="none" transform="translate(560 381)" font-size="12" font-family="Segoe UI" x="36.896484" y="25.201172">
+		<text fill="rgb(71,83,100)" stroke="none" transform="translate(560 381)" font-size="12" x="36.896484" y="25.201172">
 				мусора
 		</text>
 	</g>
@@ -504,7 +504,7 @@
 		</clipPath>
 	</defs>
 	<g clip-path="url(#clip_59)">
-		<text fill="rgb(71,83,100)" stroke="none" transform="translate(56 381)" font-size="12" font-family="Segoe UI" x="56.744141" y="11.201172">
+		<text fill="rgb(71,83,100)" stroke="none" transform="translate(56 381)" font-size="12" x="56.744141" y="11.201172">
 				Организация новой 
 		</text>
 	</g>
@@ -514,7 +514,7 @@
 		</clipPath>
 	</defs>
 	<g clip-path="url(#clip_60)">
-		<text fill="rgb(71,83,100)" stroke="none" transform="translate(56 381)" font-size="12" font-family="Segoe UI" x="31.660156" y="25.201172">
+		<text fill="rgb(71,83,100)" stroke="none" transform="translate(56 381)" font-size="12" x="31.660156" y="25.201172">
 				контейнерной 
 		</text>
 	</g>
@@ -524,7 +524,7 @@
 		</clipPath>
 	</defs>
 	<g clip-path="url(#clip_61)">
-		<text fill="rgb(71,83,100)" stroke="none" transform="translate(56 381)" font-size="12" font-family="Segoe UI" x="114.22461" y="25.201172">
+		<text fill="rgb(71,83,100)" stroke="none" transform="translate(56 381)" font-size="12" x="114.22461" y="25.201172">
 				площадки
 		</text>
 	</g>
