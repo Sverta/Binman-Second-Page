@@ -265,6 +265,7 @@
 		background: darken($bm-btn-dark-blue, 1%);
 		outline: none;
 		transform: scale(.995);
+		box-shadow: none;
 	}
 }
 
@@ -278,6 +279,7 @@
 		background: darken($bm-btn-blight-blue, 1%);
 		outline: none;
 		transform: scale(.995);
+		box-shadow: none;
 	}
 }
 .bm-additional-box{

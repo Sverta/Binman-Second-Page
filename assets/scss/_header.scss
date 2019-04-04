@@ -94,6 +94,7 @@
 	&:active, &:focus{
 		background: darken($bm-btn-dark-blue, 1%);
 		outline: none;
+		box-shadow: none;
 	}
 }
 

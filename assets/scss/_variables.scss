@@ -37,56 +37,56 @@ svg{
 h1,h2,h3,h4,h5,h6 {
 	color: #475364;
 	font-family: "proxima nova semibold",sans-serif;
-	font-weight: 400 !important;
+	font-weight: 400;
 }
 h1{
-	font-size: 36px !important;
-	line-height: 36px !important;
+	font-size: 36px;
+	line-height: 36px;
 	@media screen and (max-width: 991px) {
-		font-size: 22px !important;
+		font-size: 22px;
 	}
 }
 
 h2{
-	font-size: 36px !important;
-	line-height: 36px !important;
+	font-size: 36px;
+	line-height: 36px;
 	text-align: center;
-	margin-bottom: 15px !important;
+	margin-bottom: 15px;
 	@media screen and (max-width: 991px) {
-		font-size: 20px !important;
+		font-size: 20px;
 	}
 }
 
 h3{
-	font-size: 22px !important;
-	line-height: 22px !important;
-	margin-bottom: 13px !important;
+	font-size: 22px;
+	line-height: 22px;
+	margin-bottom: 13px;
 	@media screen and (max-width: 991px) {
-		font-size: 18px !important;
+		font-size: 18px;
 	}
 }
 h4 {
-	font-size: 24px !important;
-	line-height: 24px !important;
+	font-size: 24px;
+	line-height: 24px;
 	padding-bottom: 12px;
 	@media screen and (max-width: 991px) {
-		font-size: 20px !important;
+		font-size: 20px;
 		text-align: center;
 	}
 }
 h5 {
-	font-size: 18px !important;
-	line-height: 20px !important;
-	margin-bottom: 12px !important;
+	font-size: 18px;
+	line-height: 20px;
+	margin-bottom: 12px;
 	@media screen and (max-width: 991px) {
-		font-size: 16px !important;
+		font-size: 16px;
 	}
 }
 
 h6 {
 	font-size: 16px;
 	line-height: 18px;
-	margin-bottom: 2px !important;
+	margin-bottom: 2px;
 }
 p {
 	color: #6a7f8f;	
@@ -96,7 +96,7 @@ p {
 /* On screens that are 992px or less, set the background color to blue */
 @media only screen and (min-width: 992px) {
 	.container {
-		max-width: 1240px !important;
+		max-width: 1240px;
 	}
 }
 
