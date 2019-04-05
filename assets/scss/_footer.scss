@@ -28,7 +28,7 @@
 			color: $bm-white;
 			font-family: "proxima nova bold", sans-serif;
 			font-size: 12px;
-			font-weight: 400;
+			font-weight: 700;
 			line-height: 12px;
 			&:hover {
 				color: $bm-white;
@@ -60,7 +60,7 @@
 		color: $bm-white;
 		font-family: "proxima nova bold", sans-serif;
 		font-size: 16px;
-		font-weight: 400;
+		font-weight: 700;
 		line-height: 16px;
 		margin-bottom: 0;
 
@@ -76,11 +76,11 @@
 			font-family: "proxima nova regular", sans-serif;
 		}
 		font-size: 12px;
-		font-weight: 400;
 		padding: 10px 0 12px;
 		line-height: 12px;
 	}
 	&-header {
+		font-weight: 700;
 		font-family: "proxima nova bold", sans-serif;
 		color: $bm-footed-grey-text;
 	}

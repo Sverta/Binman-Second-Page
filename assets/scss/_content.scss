@@ -14,7 +14,7 @@
 	padding: 50px 0 20px;
 	&-box {
 		@include box;
-		padding: 20px 35px 0;
+		padding: 22px 40px;
 	}
 	&-img {
 		width: 40px;
@@ -23,8 +23,9 @@
 	}
 	p{
 		font-size: 14px;
-		line-height: 19px;
+		line-height: 1.2;
 		padding-left: 20px;
+		margin-bottom: 0;
 	}
 	@media screen and (max-width: 991px) {
 		padding-top: 20px;
@@ -42,12 +43,13 @@
 	&-text-link {
 		color: $bm-text-link;
 		font-size: 16px;
-		font-weight: 400;
+		
 		line-height: 16px;
 		margin-bottom: 21px;
 		a {
+			font-weight: 600;
 			color: $bm-btn-dark-blue;
-			border-bottom: 1px dashed $bm-btn-dark-blue;
+			border-bottom: 1px dotted $bm-btn-dark-blue;
 			font-family: "proxima nova semibold", sans-serif;
 			&:hover {
 				color:darken($bm-btn-dark-blue, 5%);
@@ -80,7 +82,7 @@
 		color: $bm-dark-grey;
 		font-family: "proxima nova semibold", sans-serif;
 		font-size: 14px;
-		font-weight: 400;
+		font-weight: 700;
 		line-height: 14px;
 		&:hover {
 			color: $bm-dark-grey;
@@ -91,12 +93,16 @@
 		color: $bm-btn-dark-blue;
 		font-family: "proxima nova semibold", sans-serif;
 		font-size: 14px;
-		font-weight: 400;
+		font-weight: 600;
 		line-height: 14px;
+		span {
+			vertical-align: middle;
+		}
 		&-img {
 			width: 6px;
 			height: 10px;
 			margin-left: 5px;
+			vertical-align: middle;
 		}
 		&:hover {
 			text-decoration: none;
@@ -105,19 +111,25 @@
 				color:darken($bm-btn-dark-blue, 5%);	
 				text-decoration: underline;
 			}
-			[clip-path="url(#la)"]{
-				fill: red;
-			}
 		}
 	}
 }
 
 // send block
-
+.bm-send {
+	@media only screen and (min-width: 992px) {
+		.row{
+			margin: 0 -10px;
+		}
+		.col-lg-6 {
+			padding: 0 10px;
+		}
+	}
+}
 .bm-send_box {
 	@include box;
 	margin-bottom: 20px;
-	min-height: 200px;
+	min-height: 230px;
 	position: relative;
 	p{
 		color: $bm-text-link;
@@ -130,10 +142,13 @@
 		color: $bm-btn-dark-blue;
 		font-family: "proxima nova semibold", sans-serif;
 		font-size: 14px;
-		font-weight: 400;
+		font-weight: 600;
 		line-height: 14px;
 		position: absolute;
 		bottom: 30px;
+		span {
+			vertical-align: middle;
+		}
 		&:hover{
 			text-decoration: none;
 			span {
@@ -143,9 +158,15 @@
 			}
 		}
 	}
+	&-wrapper {
+		width: 96%;
+		max-width: 320px;
+	}
 	img{
-		max-width: 100%;
+		max-width: 320px;
+		width: 100%;
 		height: auto;
+		max-height: 240px;
 	}
 }
 .bm-send_box-left {
@@ -169,12 +190,14 @@
 // SERVICE
 
 .bm-service{
-	&_box-img {
-		height: 500px;
-		width: 100%;
-		@media screen and (max-width: 991px) {
-			height: 300px;
-		}
+	&_box-img img{
+		max-width: 100%;
+		height: auto;
+		// height: 500px;
+		// width: 100%;
+		// @media screen and (max-width: 991px) {
+		// 	height: 300px;
+		// }
 	}
 	padding: 75px 0 90px;
 
@@ -201,7 +224,7 @@
 		color: $bm-light-grey;
 		font-family: "proxima nova semibold", sans-serif;
 		font-size: 26px;
-		font-weight: 400;
+		font-weight: 600;
 		line-height: 26px;
 		padding: 0 10px 0 0;
 	}
@@ -224,7 +247,7 @@
 			color: $bm-white;
 			font-family: "proxima nova semibold", sans-serif;
 			font-size: 16px;
-			font-weight: 400;
+			font-weight: 600;
 			line-height: 16px;
 			padding: 20px;
 			border-radius: 30px;

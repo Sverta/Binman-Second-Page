@@ -37,7 +37,7 @@ svg{
 h1,h2,h3,h4,h5,h6 {
 	color: #475364;
 	font-family: "proxima nova semibold",sans-serif;
-	font-weight: 400;
+	font-weight: 600;
 }
 h1{
 	font-size: 36px;
@@ -96,8 +96,11 @@ p {
 /* On screens that are 992px or less, set the background color to blue */
 @media only screen and (min-width: 992px) {
 	.container {
-		max-width: 1240px;
+		max-width: 1270px;
 	}
+	// .col-lg-6 {
+	// 	padding: 0 10px;
+	// }
 }
 
 

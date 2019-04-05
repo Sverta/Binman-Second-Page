@@ -4,6 +4,9 @@
 .bm-header {
 	background: $bm-white;
 	box-shadow: 0px 0px 10px rgba(0,0,0,0.05);
+	&_brand {
+		margin-right: 20px;
+	}
 	&_brand-img {
 		height: 30px;
 		width: 106px;
@@ -25,20 +28,16 @@
 }
 .bm-header_collapse-ul {
 	li {
-		padding: 0 20px 0 10px;
+		padding: 0 20px;
 		a {
 			font-family: 'proxima nova bold', sans-serif;
 			color: $bm-dark-grey;
 			font-size: 12px;
-			font-weight: 400;
-			padding:  0 15px;
+			font-weight: 700; 
 			&:hover {
 				color: $bm-dark-grey;
 				text-decoration: underline;
 			}
-			// 	&:active {
-			// 	color: lighten($bm-dark-grey,10%);
-			// }
 			@media screen and (max-width: 991px) {
 				padding:  0;	
 			}
@@ -60,10 +59,14 @@
 	font-family: 'proxima nova semibold', sans-serif;
 	color: $bm-dark-grey;
 	font-size: 14px;
-	font-weight: 400;
+	font-weight: 700;
 	line-height: 14px;
-	margin-right: 45px;
+	margin-right: 40px;
+	span {
+		vertical-align: bottom;
+	}
 	&-img {
+		vertical-align: bottom;
 		width: 20px;
 		height: 14px;
 		color: $bm-btn-dark-blue;
@@ -79,7 +82,7 @@
 	color: $bm-white;
 	height: 30px;
 	font-size: 12px;
-	font-weight: 400;
+	font-weight: 700;
 	line-height: 12px;
 	background: $bm-btn-dark-blue;
 	border-radius: 100px;
@@ -103,6 +106,7 @@
 	height: 14px;
 	color: $bm-white;
 	vertical-align: middle;
+	margin-right: 1px;
 }
 
 //  submenu
@@ -117,7 +121,7 @@
 			font-family: 'proxima nova semibold', sans-serif;
 			color: $bm-dark-grey;
 			font-size: 13px;
-			font-weight: 400;
+			font-weight: 600;
 			line-height: 11px;
 			padding-left: 0;
 			&:hover {

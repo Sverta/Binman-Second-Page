@@ -57,25 +57,25 @@
                 <circle id="Oval" fill="#779EC6" cx="545.5" cy="396.5" r="5.5"></circle>
                 <circle id="Oval" fill="#779EC6" cx="240.5" cy="396.5" r="5.5"></circle>
                 <circle id="Oval" fill="#779EC6" cx="184.5" cy="252.5" r="5.5"></circle>
-                <text id="Несвоевременный-выво" font-family="ProximaNova-Regular, Proxima Nova" font-size="12" font-weight="normal" line-spacing="14" fill="#475364">
+                <text id="Несвоевременный-выво" font-size="12" font-weight="normal" line-spacing="14" fill="#475364">
                     <tspan x="318.62" y="11">Несвоевременный вывоз </tspan>
                     <tspan x="304.988" y="25">отходов с мусорных площадок</tspan>
                 </text>
-                <text id="Обнаружение-несанкци" font-family="ProximaNova-Regular, Proxima Nova" font-size="12" font-weight="normal" line-spacing="14" fill="#475364">
+                <text id="Обнаружение-несанкци" font-size="12" font-weight="normal" line-spacing="14" fill="#475364">
                     <tspan x="90.848" y="242">Обнаружение </tspan>
                     <tspan x="1.172" y="256">несанкционированной свалки </tspan>
                     <tspan x="128.348" y="270">мусора</tspan>
                 </text>
-                <text id="Игнорирование-технич" font-family="ProximaNova-Regular, Proxima Nova" font-size="12" font-weight="normal" line-spacing="14" fill="#475364">
+                <text id="Игнорирование-технич" font-size="12" font-weight="normal" line-spacing="14" fill="#475364">
                     <tspan x="619" y="242">Игнорирование технического </tspan>
                     <tspan x="619" y="256">обслуживания мусорной </tspan>
                     <tspan x="619" y="270">площадки </tspan>
                 </text>
-                <text id="Заключение-договора" font-family="ProximaNova-Regular, Proxima Nova" font-size="12" font-weight="normal" line-spacing="14" fill="#475364">
+                <text id="Заключение-договора" font-size="12" font-weight="normal" line-spacing="14" fill="#475364">
                     <tspan x="560" y="392">Заключение договора на </tspan>
                     <tspan x="560" y="406">вывоз мусора</tspan>
                 </text>
-                <text id="Организация-новой-ко" font-family="ProximaNova-Regular, Proxima Nova" font-size="12" font-weight="normal" line-spacing="14" fill="#475364">
+                <text id="Организация-новой-ко" font-size="12" font-weight="normal" line-spacing="14" fill="#475364">
                     <tspan x="113.956" y="392">Организация новой </tspan>
                     <tspan x="87.088" y="406">контейнерной площадки</tspan>
                 </text>
